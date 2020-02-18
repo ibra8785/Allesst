@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* CSS of Nav Bar */
+
+.nav
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 26px 50px;
+}
+.nav span
+{
+    color: #807FFF;
+}
+
+.nav ul
+{
+    list-style: none;
+}
+
+.nav ul li
+{
+    display: inline-block;
+}
+
+.nav ul li a
+{
+    color: black;
+    font-size: 18px;
+    transition: all .5s;
+}
+
+.nav ul button
+{
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+/* CSS of Header */
+.header
+{
+    width: 98%;
+    min-height: 300px;
+    background-image: url(img/chicago-690364_1280.jpg);
+    background-size: 98px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+.dream
+{
+    padding: 50px 0 0 25px;
+}
+form div
+{
+    background-color: #FCFDFF;
+    width: 7%;
+    height: 32px;
+    display: flex;
+}
+form div .buy
+{
+    background-color: #807FFF;
+    width: 50%;
+    height: 29px;
+    color: white;
+    border-radius: 5px;
+}
+form div .rent
+{
+    background-color: white;
+    width: 50%;
+    height: 29px;
+    color: #807FFF;
+    border-radius: 5px;
+}
+.form
+{
+    padding:  15px 0 0 25px;
+}
+.form input
+{
+    width: 15%;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+}
+
+.article
+{
+    display: flex;
+    min-height: 200px;
+    width: 98%;
+    margin: 25px auto;
+}
+.gauche
+{
+    flex: 2;
+    display: inline-block;
+}
+.items
+{
+    display: inline-flex; 
+    padding-top: 10px;
+}
+.item .except
+{
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+}
+.item button
+{
+    background-color: #ff9376;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 7px;
+    color: white;
+    margin-top: 30px;
+}
+.item img
+{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+.item
+{
+    margin-left: 20px;
+}
+.droite
+{
+    flex: 1;
+    min-height: 300px;
+}
+.droite .itemse
+{
+    padding-top: 10px;
+}
+.imgright
+{
+    height: 150px;  
+    border: 1px solid #CCC;
+    border-radius: 10px;
+}
+.imgright img
+{
+    height: 135px;
+    width: 135px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 20px;
+}
+.text
+{
+    margin-top: 20px;
+    float: right;
+    margin-right: 350px;
+}
+.text p
+{
+    color: #CCC;
+}
